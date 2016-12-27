@@ -1,0 +1,19 @@
+{
+  "name": "crypto-pipe",
+  "version": "0.0.0",
+  "description": "ipc module for streaming data encryption",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valsid/CryptoPipe.git"
+  },
+  "author": "Vladislav Volivec'kiy <Vladislav.Voliveckiy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valsid/CryptoPipe/issues"
+  },
+  "homepage": "https://github.com/valsid/CryptoPipe#readme"
+}
