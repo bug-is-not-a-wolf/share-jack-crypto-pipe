@@ -22,7 +22,7 @@ ipc.connectTo(
     ipc.of.cryptoStream.on(
       'encrypted',
       function (data) {
-        console.log('Data', data);
+        console.log('Encrypted data', data);
       }
     );
 
@@ -50,7 +50,10 @@ ipc.connectTo(
     ipc.of.cryptoStream.on(
       'decrypted',
       function (data) {
-        console.log('Data', data);
+        console.log('Decrypted data.err: ', data.err);
+        // if(!data.err)
+        console.log('Decrypted data', data);
+        ipc.disconnect('cryptoStream');
       }
     );
 
